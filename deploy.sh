@@ -1,3 +1,4 @@
 #!/bin/bash
-
-git pull >> ../logs/deploy.log
+cd /www
+date >> ../logs/deploy.log
+git pull >> ../logs/deploy.log 2>&1
